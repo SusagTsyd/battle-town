@@ -8,7 +8,14 @@
     "sqlite3": "^5.0.0",
     "uuid": "^8.1.0"
   },
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
+  },
   "scripts": {
     "start": "node src/js/tanks/server/index.js"
+  },
+  "_moduleAliases": {
+    "@Lib": "../lib/src/js",
+    "@Server": "./src/js"
   }
 }

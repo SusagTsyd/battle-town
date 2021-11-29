@@ -3,5 +3,8 @@
   "dependencies": {
     "uuid": "^8.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "_moduleAliases": {
+    "@Lib": "./src/js"
+  }
 }
